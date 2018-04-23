@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.cert_chain = %w(tabolario.pem)
   spec.signing_key = File.expand_path('~/.ssh/gem-private_key.pem') if $PROGRAM_NAME =~ /gem\z/
 
-  spec.add_dependency 'faraday',         '~> 0.8.9'
+  spec.add_dependency 'faraday'
   spec.add_dependency 'sinatra'
   spec.add_dependency 'sinatra-contrib'
 
